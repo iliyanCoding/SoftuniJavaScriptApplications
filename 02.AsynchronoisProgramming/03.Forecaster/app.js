@@ -10,10 +10,10 @@ function attachEvents() {
         const response = await fetch(url);
         const body = await response.json();
         const foundLocation = '';
-        Object.entries(body).forEach(body => {
-            const content = body[1]
-            if(location == content.name){
-                foundLocation = content.name;
+        Object.entries(body).forEach(text => {
+            const content = text[1]
+            if(location == text.name){
+                foundLocation = text.name;
             }
             debugger;
         });
