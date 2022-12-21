@@ -18,9 +18,10 @@ page('/', showHome);
 page('/login', showLogin);
 page('/register', showRegister);
 page('/catalog', showCatalog);
+page('/create', showCreate); 
 page('/catalog/:id', showDetails);
-page('/edit/:id', showEdit)
-page('/create', showCreate);
+page('/edit/:id', showEdit);
+
 
 updateNav();
 page.start();
